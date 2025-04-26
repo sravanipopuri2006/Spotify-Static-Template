@@ -1,0 +1,554 @@
+.main-box{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    
+    
+    
+}
+body{
+    background-color: black;
+    
+}
+.main-navbar{
+    background-color: black;
+    width: 100%;
+    height: 4rem;
+    padding: 0.5rem;
+    display: flex;
+    margin-left: 0.5rem;
+    display: flex;
+    position: fixed;
+    top: 0;
+    
+    
+
+}
+.main-nav-logo{
+    padding: 0.5rem 1.2rem;
+    width: 4.5rem;
+    height: 72px;
+}
+.main-nav-logo i{
+    font-size: 2.2rem;
+    background-color: black;
+    color: white;
+
+
+}
+.home-logo{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: #1f1f1f;
+    padding: 0.8rem;
+    margin-left: 23.8rem;
+        
+    
+}
+.home-logo .logo i{
+    color: white;
+    font-size: 20px;
+    box-shadow: 4px 15px 20px rgba(128, 128, 128, 0.681);
+    
+}
+.input-nav{
+    height: 3.1rem;
+    width: 31.2rem;
+    display: flex;
+    margin-left: 0.5rem;
+
+}
+.input-nav .search{
+    height: 3rem;
+    width: 3rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.296);
+    opacity: 0.8;
+    color:rgba(255, 255, 255, 0.671);
+    font-size: 22px;
+    padding-left: 13px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}
+.input-nav .space-input{
+    width: 394px;
+    height: 50px;
+    
+}
+.input-nav .space-input input{
+    width: 394px;
+    height: 3rem;
+    color: rgba(255, 255, 255, 0.934);
+    opacity: 0.8;
+    background-color:  rgba(128, 128, 128, 0.296);
+    border: none;
+}
+.input-nav .browse-nav{
+    height: 3rem;
+    width: 3rem;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color:  rgba(128, 128, 128, 0.296);
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+
+}
+.input-nav .browse-nav .icon-browse{
+    height: 1.9rem;
+    width: 1.9rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.934);
+    padding-left: 10px;
+}
+
+
+.input-nav .browse-nav .icon-browse img{
+    height: 1.9rem;
+    width: 1.9rem;
+    height: 100%;
+    width: 100%;
+}
+.left{
+    display: flex;
+    width: 55rem;
+    
+    
+    
+}
+.right{
+    height: 3rem;
+    width: 24rem;
+    margin-left: 6.25rem;
+    display: flex;
+    align-items: center;
+    
+}
+.badge{
+    width: 9.2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 16px;
+    margin-top: 0.5rem;
+}
+.badge p{
+    color: black;
+    font-weight: 700;
+    font-size: 0.9rem;
+
+}
+.badge2{
+    width: 9.2rem;
+    height: 2rem;
+    background-color: black;
+    border-radius: 25px;
+    padding: 5px 16px;
+    margin-top: 0.5rem;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+.badge2 i{
+    font-size: 1rem;
+    color: white;
+
+}
+.bell{
+    height: 2rem;
+    width: 2rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    
+    color: white;
+}
+.email{
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background-color: #7D4B32;
+    color: black;
+    box-shadow: 4px 8px 16px black;
+    padding-top: 0.5rem;
+    padding-left: 0.8rem;
+    font-size: 14px;
+    font-weight: bolder;
+    box-shadow: 0px 8px 16px grey;
+    margin-left: 1rem;
+}
+.footer{
+    width: 100%;
+    height: 4.5rem;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    
+}
+
+.side-bar{
+    width: 23.4rem;
+    height: 64rem;
+    
+    position:fixed;
+    left: 0;
+    margin-top: 3.45rem;
+    margin-left: 0.5rem;
+    background-color: #1f1f1f;
+    opacity: 0.8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    
+}
+
+    
+.content-area {
+        background-color: #1f1f1f;
+        opacity: 0.8;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position: fixed;
+        left: 24.3rem;
+        top: 4rem; 
+        bottom: 4.5rem;
+        width: calc(100% - 24.3rem); 
+        overflow: auto;
+        overflow-x: hidden;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        scrollbar-width: thin;
+}
+    
+    
+
+.library-div{
+    padding: 12px 20px 8px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex: wrap;
+    
+    
+}
+.library-div .library{
+    height: 1.25rem;
+    width: 1.25rem;
+    
+    
+    
+
+}
+
+.library-div .library img{
+    
+    height: 100%;
+    padding-right: 0.8rem;
+
+}
+
+.library-div p{
+    color: white;
+    opacity: 0.8;
+    font-weight: 600;
+    font-size: 1rem;
+    padding-left: 0.8rem;
+    padding-top: 0.3rem;
+    margin-right: 9.25rem;
+
+    
+}
+.library-div i{
+    color: white;
+    opacity: 0.8;
+    font-size: 1rem;
+    padding-top: 0.3rem;
+    padding-right: 1rem;
+    
+
+
+
+}
+.sidebar-card{
+    height: 8.35rem;
+    width:22.25rem ;
+    margin: 1rem 0;
+    padding: 1rem 1.2rem;
+    
+    background-color: rgba(128, 128, 128, 0.162);
+    color: white;
+    margin-left: 0.5rem;
+    border-radius: 10px;
+   
+    
+    
+}
+.sidebar-card .large{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.side-bar .small{
+    font-size: 14px;
+    
+}
+.side-bar button{
+    
+    color: black;
+    font-weight: 700;
+    height: 32px;
+    width: 125px;
+    font-size: 14px;
+    border-radius: 25px;
+
+    
+}
+.card2{
+    margin-top: 1.65rem;
+}
+.recently-played{
+    width: 23.25rem;
+    height: 3.8rem;
+    display: flex;
+    margin: 0.3rem;
+
+}
+.recently-played img{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 3px;
+}
+.details{
+    display: block;
+    margin-left: 0.5rem;
+    margin-top: 0.8rem;
+}
+.recently-played .details .title{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0px;
+
+
+}
+.recently-played .details .artist{
+    color: white;
+    font-size: 12px;
+    margin: 0px;
+   
+}
+.footer .play-bar{
+    height: 2rem;
+    width: 31.75rem;
+    
+    
+    margin-top: 0.3rem;
+    padding-left: 13rem;
+    display: flex;
+
+
+}
+.footer .play-bar .icon-s{
+    height: 2rem;
+    width: 2rem;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    opacity: 0.8;
+}
+.footer .play-bar .icon-l{
+    padding-left: 1rem;
+}
+.menu-footer{
+    display: flex;
+    height: 2rem;
+    width: 23.8;
+    margin-top: 0.3rem;
+    padding-left: 16rem;
+}
+.icon-m{
+    height: 2rem;
+    width: 2rem;
+    
+}
+.icon-m img{
+    width: 100%;
+    height: 100%;
+}
+.n{
+    padding: 0.35rem;
+}
+.menu-footer input{
+    height: 4px;
+   width: 100px;
+    cursor: pointer;
+    background-color: white;
+
+}
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    display: none;
+
+}
+.progress-bar{
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.menu-footer i{
+    font-size: 16px;
+    color: white;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+    opacity: 0.8;
+}
+.track{
+    width: 39rem;
+    height: 12px;
+    background-color: black;
+    position: fixed;
+    color: white;
+    font-size: 12px;
+    
+    left: 395px;
+    bottom: 1.35rem;
+    padding-left: 5rem;
+    padding-top: 0.5rem;
+}
+.bar{
+    width: 85%;
+    
+}
+.track input{
+    height: 3.2px;
+    border-radius: 25px;
+}
+.content-nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #1f1f1f;
+    height: 4rem;
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 1.25rem;
+    
+    
+
+}
+.content-nav .all{
+    background-color: white;
+    border-radius: 25px;
+    width: 2.5rem;
+    height: 2rem;
+    color: black;
+    border: none;
+    font-weight: 500;
+    margin-left: 0.5rem;
+
+}
+.content-nav .Music{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-radius: 25px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    margin-left: 0.5rem;
+    
+    
+    
+    height: 2rem;
+    width: 3.8rem;
+    
+
+        
+}
+.content-nav .Podcasts{
+    background-color: rgba(128, 128, 128, 0.321);
+    border-radius: 25px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    height: 2rem;
+    width: 5.125rem;
+    margin-left: 0.5rem;
+
+}
+.card{
+    background-color: #1f1f1f;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0 0 0 24px;
+    
+    display: flex;
+    
+    
+}
+.container{
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+
+}
+.card-container{
+    height: 254px;
+    width: 178px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.056);
+    margin-left: 0.5rem;
+    
+}
+.ig{
+    height: 170px;
+    width: 172px;
+
+}
+.card-container img{
+    
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card-container .large-text{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.card-container .small-text{
+    font-size: 14px;
+    font-weight: normal;
+}
+.played{
+    height: 134px;
+    width: 134px;
+   
+}
+.played img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+
+
+
+
+
+
