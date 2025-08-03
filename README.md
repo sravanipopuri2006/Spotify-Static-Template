@@ -19,3 +19,7 @@ Inspired by Spotify’s sleek black and green theme.
 
 ## Use Cases:
 Practicing front-end development and UI cloning. Learning CSS flexbox, grid.
+
+## ScreenShots
+<img width="1908" height="963" alt="image" src="https://github.com/user-attachments/assets/a874e843-f3b0-4f14-bba0-ad41698c4623" />
+
